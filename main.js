@@ -221,16 +221,15 @@ AppComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdefineCompo
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "QuizPanelComponent", function() { return QuizPanelComponent; });
-/* harmony import */ var _app_animations__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../app.animations */ "f3AP");
-/* harmony import */ var _fortawesome_free_solid_svg_icons__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @fortawesome/free-solid-svg-icons */ "wHSu");
-/* harmony import */ var _angular_animations__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/animations */ "R0Ic");
+/* harmony import */ var _angular_forms__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/forms */ "3Pt+");
+/* harmony import */ var _app_animations__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../app.animations */ "f3AP");
+/* harmony import */ var _fortawesome_free_solid_svg_icons__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @fortawesome/free-solid-svg-icons */ "wHSu");
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/core */ "fXoL");
-/* harmony import */ var _angular_forms__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @angular/forms */ "3Pt+");
-/* harmony import */ var _services_points_service__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../services/points.service */ "ACF1");
-/* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! @angular/common */ "ofXK");
-/* harmony import */ var _fortawesome_angular_fontawesome__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! @fortawesome/angular-fontawesome */ "6NWb");
-/* harmony import */ var ng_circle_progress__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ng-circle-progress */ "K1R0");
-/* harmony import */ var _contact_contact_component__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../contact/contact.component */ "bzTf");
+/* harmony import */ var _services_points_service__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../services/points.service */ "ACF1");
+/* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @angular/common */ "ofXK");
+/* harmony import */ var _fortawesome_angular_fontawesome__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! @fortawesome/angular-fontawesome */ "6NWb");
+/* harmony import */ var ng_circle_progress__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ng-circle-progress */ "K1R0");
+/* harmony import */ var _contact_contact_component__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../contact/contact.component */ "bzTf");
 
 
 
@@ -265,18 +264,18 @@ function QuizPanelComponent_ng_container_3_div_1_span_4_Template(rf, ctx) { if (
     _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtext"](1, ";");
     _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementEnd"]();
 } }
-function QuizPanelComponent_ng_container_3_div_1_form_5_div_1_div_5_img_3_Template(rf, ctx) { if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelement"](0, "img", 22);
+function QuizPanelComponent_ng_container_3_div_1_form_5_div_1_div_6_img_3_Template(rf, ctx) { if (rf & 1) {
+    _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelement"](0, "img", 24);
 } if (rf & 2) {
     const item_r14 = _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵnextContext"](2).$implicit;
     _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵpropertyInterpolate"]("src", item_r14.image, _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵsanitizeUrl"]);
 } }
-function QuizPanelComponent_ng_container_3_div_1_form_5_div_1_div_5_Template(rf, ctx) { if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](0, "div", 20);
+function QuizPanelComponent_ng_container_3_div_1_form_5_div_1_div_6_Template(rf, ctx) { if (rf & 1) {
+    _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](0, "div", 22);
     _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](1, "span");
     _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtext"](2);
     _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtemplate"](3, QuizPanelComponent_ng_container_3_div_1_form_5_div_1_div_5_img_3_Template, 1, 1, "img", 21);
+    _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtemplate"](3, QuizPanelComponent_ng_container_3_div_1_form_5_div_1_div_6_img_3_Template, 1, 1, "img", 23);
     _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementEnd"]();
 } if (rf & 2) {
     const item_r14 = _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵnextContext"]().$implicit;
@@ -291,14 +290,16 @@ function QuizPanelComponent_ng_container_3_div_1_form_5_div_1_Template(rf, ctx) 
     const _r21 = _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵgetCurrentView"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](0, "div", 16);
     _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](1, "label", 17);
-    _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](2, "input", 18);
-    _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵlistener"]("click", function QuizPanelComponent_ng_container_3_div_1_form_5_div_1_Template_input_click_2_listener() { _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵrestoreView"](_r21); const item_r14 = ctx.$implicit; const o_r6 = _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵnextContext"](3).$implicit; const ctx_r19 = _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵnextContext"](); return ctx_r19.radioChecked(item_r14, o_r6.formName); });
+    _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](2, "div", 18);
+    _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](3, "input", 19);
+    _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵlistener"]("change", function QuizPanelComponent_ng_container_3_div_1_form_5_div_1_Template_input_change_3_listener() { _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵrestoreView"](_r21); const item_r14 = ctx.$implicit; const o_r6 = _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵnextContext"](3).$implicit; const ctx_r19 = _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵnextContext"](); return ctx_r19.onCheckChange(item_r14, o_r6.formName); });
     _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](3, "span");
-    _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtext"](4);
+    _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](4, "label", 20);
+    _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtext"](5);
     _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtemplate"](5, QuizPanelComponent_ng_container_3_div_1_form_5_div_1_div_5_Template, 4, 4, "div", 19);
+    _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtemplate"](6, QuizPanelComponent_ng_container_3_div_1_form_5_div_1_div_6_Template, 4, 4, "div", 21);
     _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementEnd"]();
 } if (rf & 2) {
     const item_r14 = ctx.$implicit;
@@ -306,20 +307,21 @@ function QuizPanelComponent_ng_container_3_div_1_form_5_div_1_Template(rf, ctx) 
     const ctx_r13 = _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵnextContext"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵproperty"]("ngClass", ctx_r13.checkIfChecked(item_r14, o_r6.formName) ? "mb-0" : "mb-10");
     _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵadvance"](1);
-    _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵproperty"]("ngClass", _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵpureFunction2"](8, _c1, ctx_r13.checkIfChecked(item_r14, o_r6.formName) && ctx_r13.isCorrectAnswer(item_r14, o_r6) || ctx_r13.form.get(o_r6.formName).value !== "" && !ctx_r13.isWrongAnswer(item_r14, o_r6), ctx_r13.checkIfChecked(item_r14, o_r6.formName) && ctx_r13.isWrongAnswer(item_r14, o_r6) || ctx_r13.form.get(o_r6.formName).value !== "" && ctx_r13.isWrongAnswer(item_r14, o_r6)));
-    _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵadvance"](1);
-    _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵpropertyInterpolate"]("value", item_r14.option);
-    _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵpropertyInterpolate"]("name", o_r6.formName);
-    _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵpropertyInterpolate"]("formControlName", o_r6.formName);
-    _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵattribute"]("disabled", ctx_r13.questionAnswered(o_r6.formName) ? null : "");
+    _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵproperty"]("ngClass", _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵpureFunction2"](9, _c1, ctx_r13.checkIfChecked(item_r14, o_r6.formName) && ctx_r13.isCorrectAnswer(item_r14, o_r6), ctx_r13.checkIfChecked(item_r14, o_r6.formName) && ctx_r13.isWrongAnswer(item_r14, o_r6)));
     _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵadvance"](2);
+    _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵpropertyInterpolate"]("id", item_r14.option);
+    _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵpropertyInterpolate"]("name", o_r6.formName);
+    _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵproperty"]("disabled", ctx_r13.checkIfChecked(item_r14, o_r6.formName))("value", item_r14.option);
+    _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵadvance"](1);
+    _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵpropertyInterpolate"]("for", item_r14.option);
+    _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵadvance"](1);
     _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtextInterpolate"](item_r14.option);
     _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵadvance"](1);
     _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵproperty"]("ngIf", ctx_r13.checkIfChecked(item_r14, o_r6.formName));
 } }
 function QuizPanelComponent_ng_container_3_div_1_form_5_Template(rf, ctx) { if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](0, "form", 14);
-    _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtemplate"](1, QuizPanelComponent_ng_container_3_div_1_form_5_div_1_Template, 6, 11, "div", 15);
+    _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtemplate"](1, QuizPanelComponent_ng_container_3_div_1_form_5_div_1_Template, 7, 12, "div", 15);
     _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementEnd"]();
 } if (rf & 2) {
     const o_r6 = _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵnextContext"](2).$implicit;
@@ -364,13 +366,13 @@ function QuizPanelComponent_ng_container_3_Template(rf, ctx) { if (rf & 1) {
 } }
 function QuizPanelComponent_ng_container_4_Template(rf, ctx) { if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementContainerStart"](0);
-    _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](1, "div", 23);
-    _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](2, "div", 24);
-    _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](3, "h2", 25);
+    _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](1, "div", 25);
+    _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](2, "div", 26);
+    _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](3, "h2", 27);
     _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtext"](4, "\u03A0\u03BF\u03C3\u03BF\u03C3\u03C4\u03CC matching");
     _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](5, "div", 26);
-    _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelement"](6, "circle-progress", 27);
+    _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](5, "div", 28);
+    _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelement"](6, "circle-progress", 29);
     _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelement"](7, "app-contact");
@@ -383,7 +385,7 @@ function QuizPanelComponent_ng_container_4_Template(rf, ctx) { if (rf & 1) {
 } }
 function QuizPanelComponent_div_5_Template(rf, ctx) { if (rf & 1) {
     const _r26 = _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵgetCurrentView"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](0, "div", 28);
+    _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](0, "div", 30);
     _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵlistener"]("click", function QuizPanelComponent_div_5_Template_div_click_0_listener() { _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵrestoreView"](_r26); const ctx_r25 = _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵnextContext"](); return ctx_r25.onNext(); });
     _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelement"](1, "fa-icon", 7);
     _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementEnd"]();
@@ -399,8 +401,10 @@ class QuizPanelComponent {
     constructor(fb, pointsService, ref) {
         this.pointsService = pointsService;
         this.ref = ref;
-        this.faChevronLeft = _fortawesome_free_solid_svg_icons__WEBPACK_IMPORTED_MODULE_1__["faChevronLeft"];
-        this.faChevronRight = _fortawesome_free_solid_svg_icons__WEBPACK_IMPORTED_MODULE_1__["faChevronRight"];
+        this.faChevronLeft = _fortawesome_free_solid_svg_icons__WEBPACK_IMPORTED_MODULE_2__["faChevronLeft"];
+        this.faChevronRight = _fortawesome_free_solid_svg_icons__WEBPACK_IMPORTED_MODULE_2__["faChevronRight"];
+        this.numberOfCorrectAnswers = 0;
+        this.numberOfWrongAnswers = 0;
         this.counter = 0;
         this.showOptions = false;
         this.percentMatching = 70;
@@ -471,10 +475,10 @@ class QuizPanelComponent {
             },
         ];
         this.form = fb.group({
-            first: [''],
-            second: [''],
-            third: [''],
-            fourth: [''],
+            first: new _angular_forms__WEBPACK_IMPORTED_MODULE_0__["FormArray"]([]),
+            second: new _angular_forms__WEBPACK_IMPORTED_MODULE_0__["FormArray"]([]),
+            third: new _angular_forms__WEBPACK_IMPORTED_MODULE_0__["FormArray"]([]),
+            fourth: new _angular_forms__WEBPACK_IMPORTED_MODULE_0__["FormArray"]([]),
         });
         this.onResize();
     }
@@ -489,18 +493,95 @@ class QuizPanelComponent {
     ngAfterContentChecked() {
         this.ref.detectChanges();
     }
-    radioChecked(item, formName) {
-        this.form.get(formName).setValue(item.option);
-        const answer = this.questions[this.counter].answer;
-        const points = this.questions[this.counter].options[answer].option ===
-            this.form.get(formName).value
-            ? 10
-            : 5;
-        this.points = this.points + points;
+    onSwipe(evt) {
+        const x = Math.abs(evt.deltaX) > 40 ? (evt.deltaX > 0 ? 'right' : 'left') : '';
+        console.log(`${x}`);
+        if (x === 'left') {
+            this.onNext();
+        }
+        else {
+            this.onPrevious();
+        }
+    }
+    calculatePoints() {
+        let numberOfCorrectAnswers = 0;
+        let numberOfWrongAnswersFirst = 0;
+        let numberOfWrongAnswersSecond = 0;
+        let numberOfWrongAnswersThird = 0;
+        let numberOfWrongAnswersFourth = 0;
+        let answeredCorrectlyFirst = false;
+        let answeredCorrectlySecond = false;
+        let answeredCorrectlyThird = false;
+        let answeredCorrectlyFourth = false;
+        const firstArray = this.form.get('first');
+        const secondArray = this.form.get('second');
+        const thirdArray = this.form.get('third');
+        const fourthArray = this.form.get('fourth');
+        firstArray.value.forEach((element) => {
+            if (this.questions[0].options[this.questions[0].answer].option === element) {
+                answeredCorrectlyFirst = true;
+                numberOfCorrectAnswers++;
+                numberOfWrongAnswersFirst = 0;
+            }
+            else {
+                !answeredCorrectlyFirst &&
+                    numberOfWrongAnswersFirst === 0 &&
+                    numberOfWrongAnswersFirst++;
+            }
+        });
+        secondArray.value.forEach((element) => {
+            if (this.questions[1].options[this.questions[1].answer].option === element) {
+                answeredCorrectlySecond = true;
+                numberOfCorrectAnswers++;
+                numberOfWrongAnswersSecond = 0;
+            }
+            else {
+                !answeredCorrectlySecond &&
+                    numberOfWrongAnswersSecond === 0 &&
+                    numberOfWrongAnswersSecond++;
+            }
+        });
+        thirdArray.value.forEach((element) => {
+            if (this.questions[2].options[this.questions[2].answer].option === element) {
+                answeredCorrectlyThird = true;
+                numberOfCorrectAnswers++;
+                numberOfWrongAnswersThird = 0;
+            }
+            else {
+                !answeredCorrectlyThird &&
+                    numberOfWrongAnswersThird === 0 &&
+                    numberOfWrongAnswersThird++;
+            }
+        });
+        fourthArray.value.forEach((element) => {
+            if (this.questions[3].options[this.questions[3].answer].option === element) {
+                answeredCorrectlyFourth = true;
+                numberOfCorrectAnswers++;
+                numberOfWrongAnswersFourth = 0;
+            }
+            else {
+                !answeredCorrectlyFourth &&
+                    numberOfWrongAnswersFourth === 0 &&
+                    numberOfWrongAnswersFourth++;
+            }
+        });
+        this.numberOfCorrectAnswers = numberOfCorrectAnswers;
+        this.numberOfWrongAnswers =
+            numberOfWrongAnswersFirst +
+                numberOfWrongAnswersSecond +
+                numberOfWrongAnswersThird +
+                numberOfWrongAnswersFourth;
+        this.points =
+            this.numberOfCorrectAnswers * 10 + this.numberOfWrongAnswers * 5;
         this.pointsService.changePoints({ active: true, points: this.points });
         setTimeout(() => {
             this.pointsService.changePoints({ active: false, points: this.points });
         }, 3000);
+    }
+    onCheckChange(item, formName) {
+        const currentFormArray = this.form.get(formName);
+        currentFormArray.push(new _angular_forms__WEBPACK_IMPORTED_MODULE_0__["FormControl"](item.option));
+        this.calculatePoints();
     }
     onNext() {
         if (this.counter != this.questions.length) {
@@ -514,21 +595,11 @@ class QuizPanelComponent {
             this.calculateMatching();
         }
     }
-    questionAnswered(formName) {
-        return this.form.get(formName).value === '';
-    }
     isMobile() {
         return this.screenWidth <= 800;
     }
     calculateMatching() {
-        let correctAnswers = 0;
-        const questionsControls = ['first', 'second', 'third', 'fourth'];
-        questionsControls.forEach((control, index) => {
-            const answer = this.questions[index].answer;
-            this.questions[index].options[answer].option ===
-                this.form.get(control).value && correctAnswers++;
-        });
-        switch (correctAnswers) {
+        switch (this.numberOfCorrectAnswers) {
             case 0: {
                 this.percentMatching = 70;
                 break;
@@ -561,8 +632,8 @@ class QuizPanelComponent {
                 item.option);
     }
     checkIfChecked(item, formName) {
-        const val = this.form.get(formName).value;
-        return val === item.option;
+        const formArray = this.form.get(formName);
+        return formArray.value.indexOf(item.option) !== -1;
     }
     onPrevious() {
         if (this.counter > 0) {
@@ -574,12 +645,13 @@ class QuizPanelComponent {
         }
     }
 }
-QuizPanelComponent.ɵfac = function QuizPanelComponent_Factory(t) { return new (t || QuizPanelComponent)(_angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵdirectiveInject"](_angular_forms__WEBPACK_IMPORTED_MODULE_4__["FormBuilder"]), _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵdirectiveInject"](_services_points_service__WEBPACK_IMPORTED_MODULE_5__["PointsService"]), _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵdirectiveInject"](_angular_core__WEBPACK_IMPORTED_MODULE_3__["ChangeDetectorRef"])); };
+QuizPanelComponent.ɵfac = function QuizPanelComponent_Factory(t) { return new (t || QuizPanelComponent)(_angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵdirectiveInject"](_angular_forms__WEBPACK_IMPORTED_MODULE_0__["FormBuilder"]), _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵdirectiveInject"](_services_points_service__WEBPACK_IMPORTED_MODULE_4__["PointsService"]), _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵdirectiveInject"](_angular_core__WEBPACK_IMPORTED_MODULE_3__["ChangeDetectorRef"])); };
 QuizPanelComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵdefineComponent"]({ type: QuizPanelComponent, selectors: [["app-quiz-panel"]], hostBindings: function QuizPanelComponent_HostBindings(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵlistener"]("resize", function QuizPanelComponent_resize_HostBindingHandler($event) { return ctx.onResize($event); }, false, _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵresolveWindow"]);
-    } }, decls: 6, vars: 13, consts: [["class", "left", 3, "ngClass", "click", 4, "ngIf"], [1, "h-full", "justify-center", "items-center"], [1, "h-full", "quiz-content", "h-full", "w-full"], [4, "ngFor", "ngForOf"], [4, "ngIf"], ["class", "right", 3, "click", 4, "ngIf"], [1, "left", 3, "ngClass", "click"], [3, "icon"], [3, "name", 4, "ngIf"], [3, "name"], [1, "flex", "main-title", "text-center", "items-center", "title-question", "justify-center"], ["class", "max-h-20 mx-5", 3, "src", 4, "ngIf"], ["class", "text-center pb-8 items", 3, "formGroup", 4, "ngIf"], [1, "max-h-20", "mx-5", 3, "src"], [1, "text-center", "pb-8", "items", 3, "formGroup"], ["class", "item-container", 3, "ngClass", 4, "ngFor", "ngForOf"], [1, "item-container", 3, "ngClass"], [1, "p-5", "text-2xl", "item", 3, "ngClass"], ["type", "radio", 3, "value", "name", "formControlName", "click"], ["class", "flex items-center tip my-5", 4, "ngIf"], [1, "flex", "items-center", "tip", "my-5"], ["class", "tip-image", 3, "src", 4, "ngIf"], [1, "tip-image", 3, "src"], [1, "mat-app-background", "h-full", "basic-container"], [1, "flex", "flex-col", "w-full", "items-center", "justify-center"], [1, "pt-0"], [1, "md:my-5", "my-3"], [3, "percent", "radius", "outerStrokeWidth", "innerStrokeWidth", "outerStrokeColor", "innerStrokeColor", "animation", "animationDuration"], [1, "right", 3, "click"]], template: function QuizPanelComponent_Template(rf, ctx) { if (rf & 1) {
+    } }, decls: 6, vars: 13, consts: [["class", "left", 3, "ngClass", "click", 4, "ngIf"], [1, "h-full", "justify-center", "items-center", 3, "swipe"], [1, "h-full", "quiz-content", "h-full", "w-full"], [4, "ngFor", "ngForOf"], [4, "ngIf"], ["class", "right", 3, "click", 4, "ngIf"], [1, "left", 3, "ngClass", "click"], [3, "icon"], [3, "name", 4, "ngIf"], [3, "name"], [1, "flex", "main-title", "text-center", "items-center", "title-question", "justify-center"], ["class", "max-h-20 mx-5", 3, "src", 4, "ngIf"], ["class", "text-center pb-8 items", 3, "formGroup", 4, "ngIf"], [1, "max-h-20", "mx-5", 3, "src"], [1, "text-center", "pb-8", "items", 3, "formGroup"], ["class", "item-container", 3, "ngClass", 4, "ngFor", "ngForOf"], [1, "item-container", 3, "ngClass"], [1, "p-5", "text-2xl", "item", 3, "ngClass"], [1, "inputGroup"], ["type", "checkbox", 3, "disabled", "id", "name", "value", "change"], [3, "for"], ["class", "flex items-center tip my-5", 4, "ngIf"], [1, "flex", "items-center", "tip", "my-5"], ["class", "tip-image", 3, "src", 4, "ngIf"], [1, "tip-image", 3, "src"], [1, "mat-app-background", "h-full", "basic-container"], [1, "flex", "flex-col", "w-full", "items-center", "justify-center"], [1, "pt-0"], [1, "md:my-5", "my-3"], [3, "percent", "radius", "outerStrokeWidth", "innerStrokeWidth", "outerStrokeColor", "innerStrokeColor", "animation", "animationDuration"], [1, "right", 3, "click"]], template: function QuizPanelComponent_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtemplate"](0, QuizPanelComponent_div_0_Template, 2, 4, "div", 0);
         _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](1, "div", 1);
+        _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵlistener"]("swipe", function QuizPanelComponent_Template_div_swipe_1_listener($event) { return ctx.onSwipe($event); });
         _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](2, "div", 2);
         _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtemplate"](3, QuizPanelComponent_ng_container_3_Template, 2, 1, "ng-container", 3);
         _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtemplate"](4, QuizPanelComponent_ng_container_4_Template, 8, 8, "ng-container", 4);
@@ -596,51 +668,7 @@ QuizPanelComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵdefin
         _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵproperty"]("ngIf", ctx.counter === ctx.questions.length);
         _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵadvance"](1);
         _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵproperty"]("ngIf", ctx.counter < ctx.questions.length);
-    } }, directives: [_angular_common__WEBPACK_IMPORTED_MODULE_6__["NgIf"], _angular_common__WEBPACK_IMPORTED_MODULE_6__["NgForOf"], _angular_common__WEBPACK_IMPORTED_MODULE_6__["NgClass"], _fortawesome_angular_fontawesome__WEBPACK_IMPORTED_MODULE_7__["FaIconComponent"], _angular_forms__WEBPACK_IMPORTED_MODULE_4__["ɵangular_packages_forms_forms_ba"], _angular_forms__WEBPACK_IMPORTED_MODULE_4__["NgControlStatusGroup"], _angular_forms__WEBPACK_IMPORTED_MODULE_4__["FormGroupDirective"], _angular_forms__WEBPACK_IMPORTED_MODULE_4__["RadioControlValueAccessor"], _angular_forms__WEBPACK_IMPORTED_MODULE_4__["DefaultValueAccessor"], _angular_forms__WEBPACK_IMPORTED_MODULE_4__["NgControlStatus"], _angular_forms__WEBPACK_IMPORTED_MODULE_4__["FormControlName"], ng_circle_progress__WEBPACK_IMPORTED_MODULE_8__["CircleProgressComponent"], _contact_contact_component__WEBPACK_IMPORTED_MODULE_9__["ContactComponent"]], styles: ["[_nghost-%COMP%] {\n  height: 100%;\n  display: flex;\n  flex-direction: column;\n  justify-content: space-between;\n}\n\n.quiz-content[_ngcontent-%COMP%] {\n  color: white;\n}\n\n.left[_ngcontent-%COMP%] {\n  position: absolute;\n  left: 0;\n  color: white;\n  font-size: 30px;\n  top: 46.5%;\n  z-index: 9999999999999;\n}\n\nlabel[_ngcontent-%COMP%] {\n  display: flex;\n  cursor: pointer;\n  font-weight: 500;\n  position: relative;\n  overflow: hidden;\n  margin-bottom: 0.375em;\n  \n  \n  \n}\n\nlabel[_ngcontent-%COMP%]   input[_ngcontent-%COMP%] {\n  position: absolute;\n  left: -9999px;\n}\n\nlabel[_ngcontent-%COMP%]   input[_ngcontent-%COMP%]:checked    + span[_ngcontent-%COMP%]:after {\n  box-shadow: inset 0 0 0 0.4375em #b7ab7b;\n}\n\nlabel[_ngcontent-%COMP%]   span[_ngcontent-%COMP%] {\n  display: flex;\n  width: 100%;\n  justify-content: space-between;\n  align-items: center;\n  border-radius: 99em;\n  transition: 0.25s ease;\n}\n\nlabel[_ngcontent-%COMP%]   span[_ngcontent-%COMP%]:after {\n  display: flex;\n  right: 0;\n  flex-shrink: 0;\n  content: \"\";\n  width: 1.5em;\n  height: 1.5em;\n  border-radius: 50%;\n  transition: 0.25s ease;\n  margin-left: 10px;\n  box-shadow: inset 0 0 0 0.125em #b7ab7b;\n}\n\n.title-question[_ngcontent-%COMP%] {\n  margin-bottom: 19vh;\n  color: white !important;\n}\n\n.right[_ngcontent-%COMP%] {\n  position: absolute;\n  right: 0;\n  color: white;\n  font-size: 30px;\n  top: 46.5%;\n  z-index: 9999999999999;\n}\n\n.tip[_ngcontent-%COMP%] {\n  font-size: 25px;\n  font-weight: 600;\n  font-style: italic;\n}\n\n.basic-container[_ngcontent-%COMP%] {\n  text-align: center;\n  align-items: center;\n}\n\n.basic-container[_ngcontent-%COMP%]   h2[_ngcontent-%COMP%] {\n  font-size: 26px;\n}\n\n.tip-image[_ngcontent-%COMP%] {\n  color: white;\n  max-height: 50px;\n}\n\n.item[_ngcontent-%COMP%] {\n  border: 2px solid #b7ab7b;\n  border-radius: 20px;\n}\n\n.left-right[_ngcontent-%COMP%] {\n  width: 80px;\n  height: 80px;\n  cursor: pointer;\n  color: white;\n}\n\n.left-right[_ngcontent-%COMP%]:not(.disabled):hover {\n  opacity: 0.8;\n}\n\n.correct-answer[_ngcontent-%COMP%] {\n  background: #006f00;\n  border: 2px solid #006f00;\n  transition: background-color 300ms linear;\n  -moz-transition: background-color 300ms linear;\n  -webkit-transition: background-color 300ms linear;\n  -ms-transition: background-color 300ms linear;\n}\n\n.correct-answer[_ngcontent-%COMP%]   span[_ngcontent-%COMP%]:after {\n  display: none;\n}\n\n.wrong-answer[_ngcontent-%COMP%] {\n  background: #c70000;\n  border: 2px solid #c70000;\n  transition: background-color 300ms linear;\n  -moz-transition: background-color 300ms linear;\n  -webkit-transition: background-color 300ms linear;\n  -ms-transition: background-color 300ms linear;\n}\n\n.wrong-answer[_ngcontent-%COMP%]   span[_ngcontent-%COMP%]:after {\n  display: none;\n}\n\nh2[_ngcontent-%COMP%] {\n  margin: 0px;\n  text-align: center;\n  font-weight: 700;\n  font-size: 40px;\n  color: #b7ab7b;\n}\n\n.disabled[_ngcontent-%COMP%] {\n  opacity: 0.5;\n  cursor: not-allowed;\n}\n\n.title-question[_ngcontent-%COMP%] {\n  margin-bottom: 19vh;\n  color: white !important;\n}\n\n@media screen and (max-width: 767px) {\n  .title-question[_ngcontent-%COMP%] {\n    margin-bottom: 0px;\n  }\n\n  .basic-container[_ngcontent-%COMP%]   circle-progress[_ngcontent-%COMP%]   svg[_ngcontent-%COMP%] {\n    height: 50% !important;\n  }\n\n  .basic-container[_ngcontent-%COMP%]   h2[_ngcontent-%COMP%] {\n    font-size: 17px;\n    color: white;\n  }\n\n  h2[_ngcontent-%COMP%] {\n    font-size: 1.5rem;\n  }\n\n  .items[_ngcontent-%COMP%] {\n    padding-right: 20px;\n    padding-left: 20px;\n    position: absolute;\n    left: 0%;\n    top: 40%;\n    width: 100%;\n  }\n\n  .right[_ngcontent-%COMP%] {\n    right: 16px;\n  }\n\n  .main-title[_ngcontent-%COMP%] {\n    flex-direction: column;\n  }\n\n  .left[_ngcontent-%COMP%] {\n    left: 16px;\n  }\n\n  .quiz-content[_ngcontent-%COMP%]    > div[_ngcontent-%COMP%] {\n    display: flex;\n    flex-direction: column;\n    height: 100%;\n    justify-content: space-between;\n  }\n\n  .quiz-content[_ngcontent-%COMP%]    > div[_ngcontent-%COMP%]   h2[_ngcontent-%COMP%] {\n    flex: 1;\n  }\n\n  .quiz-content[_ngcontent-%COMP%]    > div[_ngcontent-%COMP%]:after {\n    flex: 1;\n    content: \"\";\n  }\n\n  .item[_ngcontent-%COMP%]   span[_ngcontent-%COMP%] {\n    font-size: 1rem;\n  }\n\n  .item-container[_ngcontent-%COMP%] {\n    margin-bottom: 1rem;\n    padding-left: 30px;\n    padding-right: 30px;\n  }\n\n  .basic-container[_ngcontent-%COMP%] {\n    justify-content: center !important;\n  }\n\n  .basic-container[_ngcontent-%COMP%]   circle-progress[_ngcontent-%COMP%]   svg[_ngcontent-%COMP%] {\n    height: 50% !important;\n  }\n\n  .basic-container[_ngcontent-%COMP%]:after {\n    display: none;\n  }\n\n  .tip[_ngcontent-%COMP%] {\n    font-size: 1rem;\n  }\n\n  .item[_ngcontent-%COMP%] {\n    padding: 5px;\n  }\n\n  .item[_ngcontent-%COMP%]   span[_ngcontent-%COMP%] {\n    padding-left: 5px;\n    padding-right: 5px;\n  }\n\n  .last-section[_ngcontent-%COMP%] {\n    top: 10px;\n  }\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uXFwuLlxcLi5cXHF1aXotcGFuZWwuY29tcG9uZW50LnNjc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7RUFDRSxZQUFBO0VBQ0EsYUFBQTtFQUNBLHNCQUFBO0VBQ0EsOEJBQUE7QUFDRjs7QUFFQTtFQUNFLFlBQUE7QUFDRjs7QUFHQTtFQUNFLGtCQUFBO0VBQ0EsT0FBQTtFQUNBLFlBQUE7RUFDQSxlQUFBO0VBQ0EsVUFBQTtFQUNBLHNCQUFBO0FBQUY7O0FBS0E7RUFDRSxhQUFBO0VBQ0EsZUFBQTtFQUNBLGdCQUFBO0VBQ0Esa0JBQUE7RUFDQSxnQkFBQTtFQUNBLHNCQUFBO0VBQ0EsdUJBQUE7RUFDQSwwQkFBQTtFQUNBOzs7O0dBQUE7QUFFRjs7QUFHRTtFQUNFLGtCQUFBO0VBQ0EsYUFBQTtBQURKOztBQUlNO0VBQ0Usd0NBQUE7QUFGUjs7QUFNRTtFQUNFLGFBQUE7RUFDQSxXQUFBO0VBQ0EsOEJBQUE7RUFDQSxtQkFBQTtFQUVBLG1CQUFBO0VBQ0Esc0JBQUE7QUFMSjs7QUFTSTtFQUNFLGFBQUE7RUFFQSxRQUFBO0VBQ0EsY0FBQTtFQUNBLFdBQUE7RUFFQSxZQUFBO0VBQ0EsYUFBQTtFQUNBLGtCQUFBO0VBQ0Esc0JBQUE7RUFDQSxpQkFBQTtFQUNBLHVDQUFBO0FBVE47O0FBY0E7RUFDRSxtQkFBQTtFQUNBLHVCQUFBO0FBWEY7O0FBY0E7RUFDRSxrQkFBQTtFQUNBLFFBQUE7RUFDQSxZQUFBO0VBQ0EsZUFBQTtFQUNBLFVBQUE7RUFDQSxzQkFBQTtBQVhGOztBQWNBO0VBQ0UsZUFBQTtFQUNBLGdCQUFBO0VBQ0Esa0JBQUE7QUFYRjs7QUFjQTtFQUNFLGtCQUFBO0VBRUEsbUJBQUE7QUFaRjs7QUFjRTtFQUNFLGVBQUE7QUFaSjs7QUFnQkE7RUFDRSxZQUFBO0VBQ0EsZ0JBQUE7QUFiRjs7QUFnQkE7RUFDRSx5QkFBQTtFQUdBLG1CQUFBO0FBZkY7O0FBa0JBO0VBQ0UsV0FBQTtFQUNBLFlBQUE7RUFDQSxlQUFBO0VBQ0EsWUFBQTtBQWZGOztBQWtCSTtFQUNFLFlBQUE7QUFoQk47O0FBcUJBO0VBQ0UsbUJBQUE7RUFDQSx5QkFBQTtFQUNBLHlDQUFBO0VBQ0EsOENBQUE7RUFDQSxpREFBQTtFQUNBLDZDQUFBO0FBbEJGOztBQW9CRTtFQUNFLGFBQUE7QUFsQko7O0FBc0JBO0VBQ0UsbUJBQUE7RUFDQSx5QkFBQTtFQUNBLHlDQUFBO0VBQ0EsOENBQUE7RUFDQSxpREFBQTtFQUNBLDZDQUFBO0FBbkJGOztBQXFCRTtFQUNFLGFBQUE7QUFuQko7O0FBdUJBO0VBQ0UsV0FBQTtFQUNBLGtCQUFBO0VBQ0EsZ0JBQUE7RUFDQSxlQUFBO0VBQ0EsY0E1SWM7QUF3SGhCOztBQXVCQTtFQUNFLFlBQUE7RUFDQSxtQkFBQTtBQXBCRjs7QUF1QkE7RUFDRSxtQkFBQTtFQUNBLHVCQUFBO0FBcEJGOztBQXVCQTtFQUNFO0lBQ0Usa0JBQUE7RUFwQkY7O0VBeUJJO0lBQ0Usc0JBQUE7RUF0Qk47O0VBK0JFO0lBQ0UsZUFBQTtJQUNBLFlBQUE7RUE3Qko7O0VBaUNBO0lBQ0UsaUJBQUE7RUE5QkY7O0VBaUNBO0lBQ0UsbUJBQUE7SUFDQSxrQkFBQTtJQUVBLGtCQUFBO0lBQ0EsUUFBQTtJQUNBLFFBQUE7SUFDQSxXQUFBO0VBL0JGOztFQWtDQTtJQUNFLFdBQUE7RUEvQkY7O0VBa0NBO0lBQ0Usc0JBQUE7RUEvQkY7O0VBa0NBO0lBQ0UsVUFBQTtFQS9CRjs7RUFrQ0E7SUFDRSxhQUFBO0lBQ0Esc0JBQUE7SUFDQSxZQUFBO0lBQ0EsOEJBQUE7RUEvQkY7O0VBaUNFO0lBQ0UsT0FBQTtFQS9CSjs7RUFrQ0U7SUFDRSxPQUFBO0lBQ0EsV0FBQTtFQWhDSjs7RUFvQ0E7SUFDRSxlQUFBO0VBakNGOztFQW9DQTtJQUNFLG1CQUFBO0lBQ0Esa0JBQUE7SUFDQSxtQkFBQTtFQWpDRjs7RUFvQ0E7SUFDRSxrQ0FBQTtFQWpDRjs7RUFtQ0k7SUFDRSxzQkFBQTtFQWpDTjs7RUFxQ0U7SUFDRSxhQUFBO0VBbkNKOztFQXVDQTtJQUNFLGVBQUE7RUFwQ0Y7O0VBdUNBO0lBQ0UsWUFBQTtFQXBDRjs7RUFzQ0U7SUFDRSxpQkFBQTtJQUNBLGtCQUFBO0VBcENKOztFQXdDQTtJQUNFLFNBQUE7RUFyQ0Y7QUFDRiIsImZpbGUiOiJxdWl6LXBhbmVsLmNvbXBvbmVudC5zY3NzIiwic291cmNlc0NvbnRlbnQiOlsiOmhvc3Qge1xyXG4gIGhlaWdodDogMTAwJTtcclxuICBkaXNwbGF5OiBmbGV4O1xyXG4gIGZsZXgtZGlyZWN0aW9uOiBjb2x1bW47XHJcbiAganVzdGlmeS1jb250ZW50OiBzcGFjZS1iZXR3ZWVuO1xyXG59XHJcblxyXG4ucXVpei1jb250ZW50IHtcclxuICBjb2xvcjogd2hpdGU7XHJcbiAgLy8gbWFyZ2luLWJvdHRvbTogNTVweDtcclxufVxyXG5cclxuLmxlZnQge1xyXG4gIHBvc2l0aW9uOiBhYnNvbHV0ZTtcclxuICBsZWZ0OiAwO1xyXG4gIGNvbG9yOiB3aGl0ZTtcclxuICBmb250LXNpemU6IDMwcHg7XHJcbiAgdG9wOiA0Ni41JTtcclxuICB6LWluZGV4OiA5OTk5OTk5OTk5OTk5O1xyXG59XHJcblxyXG4kcHJpbWFyeS1jb2xvcjogI2I3YWI3YjtcclxuXHJcbmxhYmVsIHtcclxuICBkaXNwbGF5OiBmbGV4O1xyXG4gIGN1cnNvcjogcG9pbnRlcjtcclxuICBmb250LXdlaWdodDogNTAwO1xyXG4gIHBvc2l0aW9uOiByZWxhdGl2ZTtcclxuICBvdmVyZmxvdzogaGlkZGVuO1xyXG4gIG1hcmdpbi1ib3R0b206IDAuMzc1ZW07XHJcbiAgLyogQWNjZXNzaWJsZSBvdXRsaW5lICovXHJcbiAgLyogUmVtb3ZlIGNvbW1lbnQgdG8gdXNlICovXHJcbiAgLypcclxuXHRcdCY6Zm9jdXMtd2l0aGluIHtcclxuXHRcdFx0XHRvdXRsaW5lOiAuMTI1ZW0gc29saWQgJHByaW1hcnktY29sb3I7XHJcblx0XHR9XHJcblx0Ki9cclxuICBpbnB1dCB7XHJcbiAgICBwb3NpdGlvbjogYWJzb2x1dGU7XHJcbiAgICBsZWZ0OiAtOTk5OXB4O1xyXG4gICAgJjpjaGVja2VkICsgc3BhbiB7XHJcbiAgICAgIC8vIGJhY2tncm91bmQtY29sb3I6IG1peCgjZmZmLCAkcHJpbWFyeS1jb2xvciwgODQlKTtcclxuICAgICAgJjphZnRlciB7XHJcbiAgICAgICAgYm94LXNoYWRvdzogaW5zZXQgMCAwIDAgMC40Mzc1ZW0gJHByaW1hcnktY29sb3I7XHJcbiAgICAgIH1cclxuICAgIH1cclxuICB9XHJcbiAgc3BhbiB7XHJcbiAgICBkaXNwbGF5OiBmbGV4O1xyXG4gICAgd2lkdGg6IDEwMCU7XHJcbiAgICBqdXN0aWZ5LWNvbnRlbnQ6IHNwYWNlLWJldHdlZW47XHJcbiAgICBhbGlnbi1pdGVtczogY2VudGVyO1xyXG4gICAgLy8gcGFkZGluZzogMC4zNzVlbSAwLjc1ZW0gMC4zNzVlbSAwLjM3NWVtO1xyXG4gICAgYm9yZGVyLXJhZGl1czogOTllbTsgLy8gb3Igc29tZXRoaW5nIGhpZ2hlci4uLlxyXG4gICAgdHJhbnNpdGlvbjogMC4yNXMgZWFzZTtcclxuICAgIC8vICY6aG92ZXIge1xyXG4gICAgLy8gICBiYWNrZ3JvdW5kLWNvbG9yOiBtaXgoI2ZmZiwgJHByaW1hcnktY29sb3IsIDg0JSk7XHJcbiAgICAvLyB9XHJcbiAgICAmOmFmdGVyIHtcclxuICAgICAgZGlzcGxheTogZmxleDtcclxuICAgICAgLy8gcG9zaXRpb246IGFic29sdXRlO1xyXG4gICAgICByaWdodDogMDtcclxuICAgICAgZmxleC1zaHJpbms6IDA7XHJcbiAgICAgIGNvbnRlbnQ6IFwiXCI7XHJcbiAgICAgIC8vIGJhY2tncm91bmQtY29sb3I6ICNmZmY7XHJcbiAgICAgIHdpZHRoOiAxLjVlbTtcclxuICAgICAgaGVpZ2h0OiAxLjVlbTtcclxuICAgICAgYm9yZGVyLXJhZGl1czogNTAlO1xyXG4gICAgICB0cmFuc2l0aW9uOiAwLjI1cyBlYXNlO1xyXG4gICAgICBtYXJnaW4tbGVmdDogMTBweDtcclxuICAgICAgYm94LXNoYWRvdzogaW5zZXQgMCAwIDAgMC4xMjVlbSAkcHJpbWFyeS1jb2xvcjtcclxuICAgIH1cclxuICB9XHJcbn1cclxuXHJcbi50aXRsZS1xdWVzdGlvbiB7XHJcbiAgbWFyZ2luLWJvdHRvbTogMTl2aDtcclxuICBjb2xvcjogd2hpdGUgIWltcG9ydGFudDtcclxufVxyXG5cclxuLnJpZ2h0IHtcclxuICBwb3NpdGlvbjogYWJzb2x1dGU7XHJcbiAgcmlnaHQ6IDA7XHJcbiAgY29sb3I6IHdoaXRlO1xyXG4gIGZvbnQtc2l6ZTogMzBweDtcclxuICB0b3A6IDQ2LjUlO1xyXG4gIHotaW5kZXg6IDk5OTk5OTk5OTk5OTk7XHJcbn1cclxuXHJcbi50aXAge1xyXG4gIGZvbnQtc2l6ZTogMjVweDtcclxuICBmb250LXdlaWdodDogNjAwO1xyXG4gIGZvbnQtc3R5bGU6IGl0YWxpYztcclxufVxyXG5cclxuLmJhc2ljLWNvbnRhaW5lciB7XHJcbiAgdGV4dC1hbGlnbjogY2VudGVyO1xyXG4gIC8vIGZsZXgtZGlyZWN0aW9uOiBjb2x1bW47XHJcbiAgYWxpZ24taXRlbXM6IGNlbnRlcjtcclxuXHJcbiAgaDIge1xyXG4gICAgZm9udC1zaXplOiAyNnB4O1xyXG4gIH1cclxufVxyXG5cclxuLnRpcC1pbWFnZSB7XHJcbiAgY29sb3I6IHdoaXRlO1xyXG4gIG1heC1oZWlnaHQ6IDUwcHg7XHJcbn1cclxuXHJcbi5pdGVtIHtcclxuICBib3JkZXI6IDJweCBzb2xpZCAjYjdhYjdiO1xyXG5cclxuICAvLyAjMjY0ODY5XHJcbiAgYm9yZGVyLXJhZGl1czogMjBweDtcclxufVxyXG5cclxuLmxlZnQtcmlnaHQge1xyXG4gIHdpZHRoOiA4MHB4O1xyXG4gIGhlaWdodDogODBweDtcclxuICBjdXJzb3I6IHBvaW50ZXI7XHJcbiAgY29sb3I6IHdoaXRlO1xyXG5cclxuICAmOm5vdCguZGlzYWJsZWQpIHtcclxuICAgICY6aG92ZXIge1xyXG4gICAgICBvcGFjaXR5OiAwLjg7XHJcbiAgICB9XHJcbiAgfVxyXG59XHJcblxyXG4uY29ycmVjdC1hbnN3ZXIge1xyXG4gIGJhY2tncm91bmQ6ICMwMDZmMDA7XHJcbiAgYm9yZGVyOiAycHggc29saWQgIzAwNmYwMDtcclxuICB0cmFuc2l0aW9uOiBiYWNrZ3JvdW5kLWNvbG9yIDMwMG1zIGxpbmVhcjtcclxuICAtbW96LXRyYW5zaXRpb246IGJhY2tncm91bmQtY29sb3IgMzAwbXMgbGluZWFyO1xyXG4gIC13ZWJraXQtdHJhbnNpdGlvbjogYmFja2dyb3VuZC1jb2xvciAzMDBtcyBsaW5lYXI7XHJcbiAgLW1zLXRyYW5zaXRpb246IGJhY2tncm91bmQtY29sb3IgMzAwbXMgbGluZWFyO1xyXG5cclxuICBzcGFuOmFmdGVyIHtcclxuICAgIGRpc3BsYXk6IG5vbmU7XHJcbiAgfVxyXG59XHJcblxyXG4ud3JvbmctYW5zd2VyIHtcclxuICBiYWNrZ3JvdW5kOiAjYzcwMDAwO1xyXG4gIGJvcmRlcjogMnB4IHNvbGlkICNjNzAwMDA7XHJcbiAgdHJhbnNpdGlvbjogYmFja2dyb3VuZC1jb2xvciAzMDBtcyBsaW5lYXI7XHJcbiAgLW1vei10cmFuc2l0aW9uOiBiYWNrZ3JvdW5kLWNvbG9yIDMwMG1zIGxpbmVhcjtcclxuICAtd2Via2l0LXRyYW5zaXRpb246IGJhY2tncm91bmQtY29sb3IgMzAwbXMgbGluZWFyO1xyXG4gIC1tcy10cmFuc2l0aW9uOiBiYWNrZ3JvdW5kLWNvbG9yIDMwMG1zIGxpbmVhcjtcclxuXHJcbiAgc3BhbjphZnRlciB7XHJcbiAgICBkaXNwbGF5OiBub25lO1xyXG4gIH1cclxufVxyXG5cclxuaDIge1xyXG4gIG1hcmdpbjogMHB4O1xyXG4gIHRleHQtYWxpZ246IGNlbnRlcjtcclxuICBmb250LXdlaWdodDogNzAwO1xyXG4gIGZvbnQtc2l6ZTogNDBweDtcclxuICBjb2xvcjogJHByaW1hcnktY29sb3I7XHJcbn1cclxuXHJcbi5kaXNhYmxlZCB7XHJcbiAgb3BhY2l0eTogMC41O1xyXG4gIGN1cnNvcjogbm90LWFsbG93ZWQ7XHJcbn1cclxuXHJcbi50aXRsZS1xdWVzdGlvbiB7XHJcbiAgbWFyZ2luLWJvdHRvbTogMTl2aDtcclxuICBjb2xvcjogd2hpdGUgIWltcG9ydGFudDtcclxufVxyXG5cclxuQG1lZGlhIHNjcmVlbiBhbmQgKG1heC13aWR0aDogNzY3cHgpIHtcclxuICAudGl0bGUtcXVlc3Rpb24ge1xyXG4gICAgbWFyZ2luLWJvdHRvbTogMHB4O1xyXG4gIH1cclxuXHJcbiAgLmJhc2ljLWNvbnRhaW5lciB7XHJcbiAgICBjaXJjbGUtcHJvZ3Jlc3Mge1xyXG4gICAgICBzdmcge1xyXG4gICAgICAgIGhlaWdodDogNTAlICFpbXBvcnRhbnQ7XHJcbiAgICAgIH1cclxuICAgIH1cclxuXHJcbiAgICAmID4gZGl2IHtcclxuICAgICAgJjphZnRlciB7XHJcbiAgICAgIH1cclxuICAgIH1cclxuXHJcbiAgICBoMiB7XHJcbiAgICAgIGZvbnQtc2l6ZTogMTdweDtcclxuICAgICAgY29sb3I6IHdoaXRlO1xyXG4gICAgfVxyXG4gIH1cclxuXHJcbiAgaDIge1xyXG4gICAgZm9udC1zaXplOiAxLjVyZW07XHJcbiAgfVxyXG5cclxuICAuaXRlbXMge1xyXG4gICAgcGFkZGluZy1yaWdodDogMjBweDtcclxuICAgIHBhZGRpbmctbGVmdDogMjBweDtcclxuXHJcbiAgICBwb3NpdGlvbjogYWJzb2x1dGU7XHJcbiAgICBsZWZ0OiAwJTtcclxuICAgIHRvcDogNDAlO1xyXG4gICAgd2lkdGg6IDEwMCU7XHJcbiAgfVxyXG5cclxuICAucmlnaHQge1xyXG4gICAgcmlnaHQ6IDE2cHg7XHJcbiAgfVxyXG5cclxuICAubWFpbi10aXRsZSB7XHJcbiAgICBmbGV4LWRpcmVjdGlvbjogY29sdW1uO1xyXG4gIH1cclxuXHJcbiAgLmxlZnQge1xyXG4gICAgbGVmdDogMTZweDtcclxuICB9XHJcblxyXG4gIC5xdWl6LWNvbnRlbnQgPiBkaXYge1xyXG4gICAgZGlzcGxheTogZmxleDtcclxuICAgIGZsZXgtZGlyZWN0aW9uOiBjb2x1bW47XHJcbiAgICBoZWlnaHQ6IDEwMCU7XHJcbiAgICBqdXN0aWZ5LWNvbnRlbnQ6IHNwYWNlLWJldHdlZW47XHJcblxyXG4gICAgaDIge1xyXG4gICAgICBmbGV4OiAxO1xyXG4gICAgfVxyXG5cclxuICAgICY6YWZ0ZXIge1xyXG4gICAgICBmbGV4OiAxO1xyXG4gICAgICBjb250ZW50OiBcIlwiO1xyXG4gICAgfVxyXG4gIH1cclxuXHJcbiAgLml0ZW0gc3BhbiB7XHJcbiAgICBmb250LXNpemU6IDFyZW07XHJcbiAgfVxyXG5cclxuICAuaXRlbS1jb250YWluZXIge1xyXG4gICAgbWFyZ2luLWJvdHRvbTogMXJlbTtcclxuICAgIHBhZGRpbmctbGVmdDogMzBweDtcclxuICAgIHBhZGRpbmctcmlnaHQ6IDMwcHg7XHJcbiAgfVxyXG5cclxuICAuYmFzaWMtY29udGFpbmVyIHtcclxuICAgIGp1c3RpZnktY29udGVudDogY2VudGVyICFpbXBvcnRhbnQ7XHJcbiAgICBjaXJjbGUtcHJvZ3Jlc3Mge1xyXG4gICAgICBzdmcge1xyXG4gICAgICAgIGhlaWdodDogNTAlICFpbXBvcnRhbnQ7XHJcbiAgICAgIH1cclxuICAgIH1cclxuXHJcbiAgICAmOmFmdGVyIHtcclxuICAgICAgZGlzcGxheTogbm9uZTtcclxuICAgIH1cclxuICB9XHJcblxyXG4gIC50aXAge1xyXG4gICAgZm9udC1zaXplOiAxcmVtO1xyXG4gIH1cclxuXHJcbiAgLml0ZW0ge1xyXG4gICAgcGFkZGluZzogNXB4O1xyXG5cclxuICAgIHNwYW4ge1xyXG4gICAgICBwYWRkaW5nLWxlZnQ6IDVweDtcclxuICAgICAgcGFkZGluZy1yaWdodDogNXB4O1xyXG4gICAgfVxyXG4gIH1cclxuXHJcbiAgLmxhc3Qtc2VjdGlvbiB7XHJcbiAgICB0b3A6IDEwcHg7XHJcbiAgfVxyXG59XHJcbiJdfQ== */"], data: { animation: [
-            Object(_angular_animations__WEBPACK_IMPORTED_MODULE_2__["trigger"])('animSlider', [
-                Object(_angular_animations__WEBPACK_IMPORTED_MODULE_2__["transition"])(':increment', [
-                    Object(_angular_animations__WEBPACK_IMPORTED_MODULE_2__["query"])(':enter, :leave', Object(_angular_animations__WEBPACK_IMPORTED_MODULE_2__["style"])({ position: 'fixed', width: '{{width}}' }), {
-                        optional: true,
-                    }),
-                    Object(_angular_animations__WEBPACK_IMPORTED_MODULE_2__["group"])([
-                        Object(_angular_animations__WEBPACK_IMPORTED_MODULE_2__["query"])(':enter', [
-                            Object(_angular_animations__WEBPACK_IMPORTED_MODULE_2__["style"])({ transform: 'translateX(10%)' }),
-                            Object(_angular_animations__WEBPACK_IMPORTED_MODULE_2__["animate"])('.3s ease-out', Object(_angular_animations__WEBPACK_IMPORTED_MODULE_2__["style"])({ transform: 'translateX(0%)' })),
-                        ], {
-                            optional: true,
-                        }),
-                        Object(_angular_animations__WEBPACK_IMPORTED_MODULE_2__["query"])(':leave', [
-                            Object(_angular_animations__WEBPACK_IMPORTED_MODULE_2__["style"])({ transform: 'translateX(0%)' }),
-                            Object(_angular_animations__WEBPACK_IMPORTED_MODULE_2__["animate"])('.4s ease-out', Object(_angular_animations__WEBPACK_IMPORTED_MODULE_2__["style"])({ transform: 'translateX(-10%)', opacity: 0 })),
-                        ], {
-                            optional: true,
-                        }),
-                    ]),
-                ]),
-                Object(_angular_animations__WEBPACK_IMPORTED_MODULE_2__["transition"])(':decrement', [
-                    Object(_angular_animations__WEBPACK_IMPORTED_MODULE_2__["query"])(':enter, :leave', Object(_angular_animations__WEBPACK_IMPORTED_MODULE_2__["style"])({ position: 'fixed', width: '{{width}}' }), {
-                        optional: true,
-                    }),
-                    Object(_angular_animations__WEBPACK_IMPORTED_MODULE_2__["group"])([
-                        Object(_angular_animations__WEBPACK_IMPORTED_MODULE_2__["query"])(':enter', [
-                            Object(_angular_animations__WEBPACK_IMPORTED_MODULE_2__["style"])({ transform: 'translateX(-10%)' }),
-                            Object(_angular_animations__WEBPACK_IMPORTED_MODULE_2__["animate"])('.3s ease-out', Object(_angular_animations__WEBPACK_IMPORTED_MODULE_2__["style"])({ transform: 'translateX(0%)' })),
-                        ], {
-                            optional: true,
-                        }),
-                        Object(_angular_animations__WEBPACK_IMPORTED_MODULE_2__["query"])(':leave', [
-                            Object(_angular_animations__WEBPACK_IMPORTED_MODULE_2__["style"])({ transform: 'translateX(0%)' }),
-                            Object(_angular_animations__WEBPACK_IMPORTED_MODULE_2__["animate"])('.4s ease-out', Object(_angular_animations__WEBPACK_IMPORTED_MODULE_2__["style"])({ transform: 'translateX(10%)', opacity: 0 })),
-                        ], {
-                            optional: true,
-                        }),
-                    ]),
-                ]),
-            ]),
-            _app_animations__WEBPACK_IMPORTED_MODULE_0__["listAnimation"],
-            _app_animations__WEBPACK_IMPORTED_MODULE_0__["fadeIn"],
-            _app_animations__WEBPACK_IMPORTED_MODULE_0__["fadeOut"],
-        ] } });
+    } }, directives: [_angular_common__WEBPACK_IMPORTED_MODULE_5__["NgIf"], _angular_common__WEBPACK_IMPORTED_MODULE_5__["NgForOf"], _angular_common__WEBPACK_IMPORTED_MODULE_5__["NgClass"], _fortawesome_angular_fontawesome__WEBPACK_IMPORTED_MODULE_6__["FaIconComponent"], _angular_forms__WEBPACK_IMPORTED_MODULE_0__["ɵangular_packages_forms_forms_ba"], _angular_forms__WEBPACK_IMPORTED_MODULE_0__["NgControlStatusGroup"], _angular_forms__WEBPACK_IMPORTED_MODULE_0__["FormGroupDirective"], ng_circle_progress__WEBPACK_IMPORTED_MODULE_7__["CircleProgressComponent"], _contact_contact_component__WEBPACK_IMPORTED_MODULE_8__["ContactComponent"]], styles: ["[_nghost-%COMP%] {\n  height: 100%;\n  display: flex;\n  flex-direction: column;\n  justify-content: space-between;\n}\n\n.quiz-content[_ngcontent-%COMP%] {\n  color: white;\n}\n\n.left[_ngcontent-%COMP%] {\n  position: absolute;\n  left: 0;\n  color: white;\n  font-size: 30px;\n  top: 46.5%;\n  z-index: 9999999999999;\n}\n\nlabel[_ngcontent-%COMP%] {\n  display: flex;\n  cursor: pointer;\n  font-weight: 500;\n  position: relative;\n  overflow: hidden;\n  margin-bottom: 0.375em;\n  \n  \n  \n}\n\nlabel[_ngcontent-%COMP%]   input[_ngcontent-%COMP%] {\n  position: absolute;\n  left: -9999px;\n}\n\nlabel[_ngcontent-%COMP%]   input[_ngcontent-%COMP%]:checked    + span[_ngcontent-%COMP%]:after {\n  box-shadow: inset 0 0 0 0.4375em #b7ab7b;\n}\n\nlabel[_ngcontent-%COMP%]   span[_ngcontent-%COMP%] {\n  display: flex;\n  width: 100%;\n  justify-content: space-between;\n  align-items: center;\n  border-radius: 99em;\n  transition: 0.25s ease;\n}\n\nlabel[_ngcontent-%COMP%]   span[_ngcontent-%COMP%]:after {\n  display: flex;\n  right: 0;\n  flex-shrink: 0;\n  content: \"\";\n  width: 1.5em;\n  height: 1.5em;\n  border-radius: 50%;\n  transition: 0.25s ease;\n  margin-left: 10px;\n  box-shadow: inset 0 0 0 0.125em #b7ab7b;\n}\n\n.title-question[_ngcontent-%COMP%] {\n  margin-bottom: 19vh;\n  color: white !important;\n}\n\n.right[_ngcontent-%COMP%] {\n  position: absolute;\n  right: 0;\n  color: white;\n  font-size: 30px;\n  top: 46.5%;\n  z-index: 9999999999999;\n}\n\n.tip[_ngcontent-%COMP%] {\n  font-size: 25px;\n  font-weight: 600;\n  font-style: italic;\n}\n\n.basic-container[_ngcontent-%COMP%] {\n  text-align: center;\n  align-items: center;\n}\n\n.basic-container[_ngcontent-%COMP%]   h2[_ngcontent-%COMP%] {\n  font-size: 26px;\n}\n\n.tip-image[_ngcontent-%COMP%] {\n  color: white;\n  max-height: 50px;\n}\n\n.item[_ngcontent-%COMP%] {\n  border: 2px solid #b7ab7b;\n  border-radius: 20px;\n}\n\n.left-right[_ngcontent-%COMP%] {\n  width: 80px;\n  height: 80px;\n  cursor: pointer;\n  color: white;\n}\n\n.left-right[_ngcontent-%COMP%]:not(.disabled):hover {\n  opacity: 0.8;\n}\n\n.correct-answer[_ngcontent-%COMP%] {\n  background: #006f00;\n  border: 2px solid #006f00;\n  transition: background-color 300ms linear;\n  -moz-transition: background-color 300ms linear;\n  -webkit-transition: background-color 300ms linear;\n  -ms-transition: background-color 300ms linear;\n}\n\n.correct-answer[_ngcontent-%COMP%]   span[_ngcontent-%COMP%]:after {\n  display: none;\n}\n\n.wrong-answer[_ngcontent-%COMP%] {\n  background: #c70000;\n  border: 2px solid #c70000;\n  transition: background-color 300ms linear;\n  -moz-transition: background-color 300ms linear;\n  -webkit-transition: background-color 300ms linear;\n  -ms-transition: background-color 300ms linear;\n}\n\n.wrong-answer[_ngcontent-%COMP%]   span[_ngcontent-%COMP%]:after {\n  display: none;\n}\n\nh2[_ngcontent-%COMP%] {\n  margin: 0px;\n  text-align: center;\n  font-weight: 700;\n  font-size: 40px;\n  color: #b7ab7b;\n}\n\n.disabled[_ngcontent-%COMP%] {\n  opacity: 0.5;\n  cursor: not-allowed;\n}\n\n.title-question[_ngcontent-%COMP%] {\n  margin-bottom: 19vh;\n  color: white !important;\n}\n\n.inputGroup[_ngcontent-%COMP%]   label[_ngcontent-%COMP%] {\n  margin-bottom: 0px;\n}\n\n@media screen and (max-width: 767px) {\n  .title-question[_ngcontent-%COMP%] {\n    margin-bottom: 0px;\n  }\n\n  .basic-container[_ngcontent-%COMP%]   circle-progress[_ngcontent-%COMP%]   svg[_ngcontent-%COMP%] {\n    height: 50% !important;\n  }\n\n  .basic-container[_ngcontent-%COMP%]   h2[_ngcontent-%COMP%] {\n    font-size: 17px;\n    color: white;\n  }\n\n  h2[_ngcontent-%COMP%] {\n    font-size: 1.5rem;\n  }\n\n  .items[_ngcontent-%COMP%] {\n    padding-right: 20px;\n    padding-left: 20px;\n    position: absolute;\n    left: 0%;\n    top: 40%;\n    width: 100%;\n  }\n\n  .right[_ngcontent-%COMP%] {\n    right: 16px;\n  }\n\n  .main-title[_ngcontent-%COMP%] {\n    flex-direction: column;\n  }\n\n  .left[_ngcontent-%COMP%] {\n    left: 16px;\n  }\n\n  .quiz-content[_ngcontent-%COMP%]    > div[_ngcontent-%COMP%] {\n    display: flex;\n    flex-direction: column;\n    height: 100%;\n    justify-content: space-between;\n  }\n\n  .quiz-content[_ngcontent-%COMP%]    > div[_ngcontent-%COMP%]   h2[_ngcontent-%COMP%] {\n    flex: 1;\n  }\n\n  .quiz-content[_ngcontent-%COMP%]    > div[_ngcontent-%COMP%]:after {\n    flex: 1;\n    content: \"\";\n  }\n\n  .inputGroup[_ngcontent-%COMP%] {\n    margin: 0 auto;\n  }\n\n  .item[_ngcontent-%COMP%]   span[_ngcontent-%COMP%], .inputGroup[_ngcontent-%COMP%]   label[_ngcontent-%COMP%] {\n    font-size: 1rem;\n  }\n\n  .item-container[_ngcontent-%COMP%] {\n    margin-bottom: 1rem;\n    padding-left: 30px;\n    padding-right: 30px;\n  }\n\n  .basic-container[_ngcontent-%COMP%] {\n    justify-content: center !important;\n  }\n\n  .basic-container[_ngcontent-%COMP%]   circle-progress[_ngcontent-%COMP%]   svg[_ngcontent-%COMP%] {\n    height: 50% !important;\n  }\n\n  .basic-container[_ngcontent-%COMP%]:after {\n    display: none;\n  }\n\n  .tip[_ngcontent-%COMP%] {\n    font-size: 1rem;\n  }\n\n  .item[_ngcontent-%COMP%] {\n    padding: 5px;\n  }\n\n  .item[_ngcontent-%COMP%]   span[_ngcontent-%COMP%] {\n    padding-left: 5px;\n    padding-right: 5px;\n  }\n\n  .last-section[_ngcontent-%COMP%] {\n    top: 10px;\n  }\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uXFwuLlxcLi5cXHF1aXotcGFuZWwuY29tcG9uZW50LnNjc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7RUFDRSxZQUFBO0VBQ0EsYUFBQTtFQUNBLHNCQUFBO0VBQ0EsOEJBQUE7QUFDRjs7QUFFQTtFQUNFLFlBQUE7QUFDRjs7QUFHQTtFQUNFLGtCQUFBO0VBQ0EsT0FBQTtFQUNBLFlBQUE7RUFDQSxlQUFBO0VBQ0EsVUFBQTtFQUNBLHNCQUFBO0FBQUY7O0FBS0E7RUFDRSxhQUFBO0VBQ0EsZUFBQTtFQUNBLGdCQUFBO0VBQ0Esa0JBQUE7RUFDQSxnQkFBQTtFQUNBLHNCQUFBO0VBQ0EsdUJBQUE7RUFDQSwwQkFBQTtFQUNBOzs7O0dBQUE7QUFFRjs7QUFHRTtFQUNFLGtCQUFBO0VBQ0EsYUFBQTtBQURKOztBQUlNO0VBQ0Usd0NBQUE7QUFGUjs7QUFNRTtFQUNFLGFBQUE7RUFDQSxXQUFBO0VBQ0EsOEJBQUE7RUFDQSxtQkFBQTtFQUVBLG1CQUFBO0VBQ0Esc0JBQUE7QUFMSjs7QUFTSTtFQUNFLGFBQUE7RUFFQSxRQUFBO0VBQ0EsY0FBQTtFQUNBLFdBQUE7RUFFQSxZQUFBO0VBQ0EsYUFBQTtFQUNBLGtCQUFBO0VBQ0Esc0JBQUE7RUFDQSxpQkFBQTtFQUNBLHVDQUFBO0FBVE47O0FBY0E7RUFDRSxtQkFBQTtFQUNBLHVCQUFBO0FBWEY7O0FBY0E7RUFDRSxrQkFBQTtFQUNBLFFBQUE7RUFDQSxZQUFBO0VBQ0EsZUFBQTtFQUNBLFVBQUE7RUFDQSxzQkFBQTtBQVhGOztBQWNBO0VBQ0UsZUFBQTtFQUNBLGdCQUFBO0VBQ0Esa0JBQUE7QUFYRjs7QUFjQTtFQUNFLGtCQUFBO0VBRUEsbUJBQUE7QUFaRjs7QUFjRTtFQUNFLGVBQUE7QUFaSjs7QUFnQkE7RUFDRSxZQUFBO0VBQ0EsZ0JBQUE7QUFiRjs7QUFnQkE7RUFDRSx5QkFBQTtFQUdBLG1CQUFBO0FBZkY7O0FBa0JBO0VBQ0UsV0FBQTtFQUNBLFlBQUE7RUFDQSxlQUFBO0VBQ0EsWUFBQTtBQWZGOztBQWtCSTtFQUNFLFlBQUE7QUFoQk47O0FBcUJBO0VBQ0UsbUJBQUE7RUFDQSx5QkFBQTtFQUNBLHlDQUFBO0VBQ0EsOENBQUE7RUFDQSxpREFBQTtFQUNBLDZDQUFBO0FBbEJGOztBQW9CRTtFQUNFLGFBQUE7QUFsQko7O0FBc0JBO0VBQ0UsbUJBQUE7RUFDQSx5QkFBQTtFQUNBLHlDQUFBO0VBQ0EsOENBQUE7RUFDQSxpREFBQTtFQUNBLDZDQUFBO0FBbkJGOztBQXFCRTtFQUNFLGFBQUE7QUFuQko7O0FBdUJBO0VBQ0UsV0FBQTtFQUNBLGtCQUFBO0VBQ0EsZ0JBQUE7RUFDQSxlQUFBO0VBQ0EsY0E1SWM7QUF3SGhCOztBQXVCQTtFQUNFLFlBQUE7RUFDQSxtQkFBQTtBQXBCRjs7QUF1QkE7RUFDRSxtQkFBQTtFQUNBLHVCQUFBO0FBcEJGOztBQXVCQTtFQUNFLGtCQUFBO0FBcEJGOztBQXVCQTtFQUNFO0lBQ0Usa0JBQUE7RUFwQkY7O0VBeUJJO0lBQ0Usc0JBQUE7RUF0Qk47O0VBK0JFO0lBQ0UsZUFBQTtJQUNBLFlBQUE7RUE3Qko7O0VBaUNBO0lBQ0UsaUJBQUE7RUE5QkY7O0VBaUNBO0lBQ0UsbUJBQUE7SUFDQSxrQkFBQTtJQUVBLGtCQUFBO0lBQ0EsUUFBQTtJQUNBLFFBQUE7SUFDQSxXQUFBO0VBL0JGOztFQWtDQTtJQUNFLFdBQUE7RUEvQkY7O0VBa0NBO0lBQ0Usc0JBQUE7RUEvQkY7O0VBa0NBO0lBQ0UsVUFBQTtFQS9CRjs7RUFrQ0E7SUFDRSxhQUFBO0lBQ0Esc0JBQUE7SUFDQSxZQUFBO0lBQ0EsOEJBQUE7RUEvQkY7O0VBaUNFO0lBQ0UsT0FBQTtFQS9CSjs7RUFrQ0U7SUFDRSxPQUFBO0lBQ0EsV0FBQTtFQWhDSjs7RUFvQ0E7SUFDRSxjQUFBO0VBakNGOztFQW9DQTs7SUFFRSxlQUFBO0VBakNGOztFQW9DQTtJQUNFLG1CQUFBO0lBQ0Esa0JBQUE7SUFDQSxtQkFBQTtFQWpDRjs7RUFvQ0E7SUFDRSxrQ0FBQTtFQWpDRjs7RUFtQ0k7SUFDRSxzQkFBQTtFQWpDTjs7RUFxQ0U7SUFDRSxhQUFBO0VBbkNKOztFQXVDQTtJQUNFLGVBQUE7RUFwQ0Y7O0VBdUNBO0lBQ0UsWUFBQTtFQXBDRjs7RUFzQ0U7SUFDRSxpQkFBQTtJQUNBLGtCQUFBO0VBcENKOztFQXdDQTtJQUNFLFNBQUE7RUFyQ0Y7QUFDRiIsImZpbGUiOiJxdWl6LXBhbmVsLmNvbXBvbmVudC5zY3NzIiwic291cmNlc0NvbnRlbnQiOlsiOmhvc3Qge1xyXG4gIGhlaWdodDogMTAwJTtcclxuICBkaXNwbGF5OiBmbGV4O1xyXG4gIGZsZXgtZGlyZWN0aW9uOiBjb2x1bW47XHJcbiAganVzdGlmeS1jb250ZW50OiBzcGFjZS1iZXR3ZWVuO1xyXG59XHJcblxyXG4ucXVpei1jb250ZW50IHtcclxuICBjb2xvcjogd2hpdGU7XHJcbiAgLy8gbWFyZ2luLWJvdHRvbTogNTVweDtcclxufVxyXG5cclxuLmxlZnQge1xyXG4gIHBvc2l0aW9uOiBhYnNvbHV0ZTtcclxuICBsZWZ0OiAwO1xyXG4gIGNvbG9yOiB3aGl0ZTtcclxuICBmb250LXNpemU6IDMwcHg7XHJcbiAgdG9wOiA0Ni41JTtcclxuICB6LWluZGV4OiA5OTk5OTk5OTk5OTk5O1xyXG59XHJcblxyXG4kcHJpbWFyeS1jb2xvcjogI2I3YWI3YjtcclxuXHJcbmxhYmVsIHtcclxuICBkaXNwbGF5OiBmbGV4O1xyXG4gIGN1cnNvcjogcG9pbnRlcjtcclxuICBmb250LXdlaWdodDogNTAwO1xyXG4gIHBvc2l0aW9uOiByZWxhdGl2ZTtcclxuICBvdmVyZmxvdzogaGlkZGVuO1xyXG4gIG1hcmdpbi1ib3R0b206IDAuMzc1ZW07XHJcbiAgLyogQWNjZXNzaWJsZSBvdXRsaW5lICovXHJcbiAgLyogUmVtb3ZlIGNvbW1lbnQgdG8gdXNlICovXHJcbiAgLypcclxuXHRcdCY6Zm9jdXMtd2l0aGluIHtcclxuXHRcdFx0XHRvdXRsaW5lOiAuMTI1ZW0gc29saWQgJHByaW1hcnktY29sb3I7XHJcblx0XHR9XHJcblx0Ki9cclxuICBpbnB1dCB7XHJcbiAgICBwb3NpdGlvbjogYWJzb2x1dGU7XHJcbiAgICBsZWZ0OiAtOTk5OXB4O1xyXG4gICAgJjpjaGVja2VkICsgc3BhbiB7XHJcbiAgICAgIC8vIGJhY2tncm91bmQtY29sb3I6IG1peCgjZmZmLCAkcHJpbWFyeS1jb2xvciwgODQlKTtcclxuICAgICAgJjphZnRlciB7XHJcbiAgICAgICAgYm94LXNoYWRvdzogaW5zZXQgMCAwIDAgMC40Mzc1ZW0gJHByaW1hcnktY29sb3I7XHJcbiAgICAgIH1cclxuICAgIH1cclxuICB9XHJcbiAgc3BhbiB7XHJcbiAgICBkaXNwbGF5OiBmbGV4O1xyXG4gICAgd2lkdGg6IDEwMCU7XHJcbiAgICBqdXN0aWZ5LWNvbnRlbnQ6IHNwYWNlLWJldHdlZW47XHJcbiAgICBhbGlnbi1pdGVtczogY2VudGVyO1xyXG4gICAgLy8gcGFkZGluZzogMC4zNzVlbSAwLjc1ZW0gMC4zNzVlbSAwLjM3NWVtO1xyXG4gICAgYm9yZGVyLXJhZGl1czogOTllbTsgLy8gb3Igc29tZXRoaW5nIGhpZ2hlci4uLlxyXG4gICAgdHJhbnNpdGlvbjogMC4yNXMgZWFzZTtcclxuICAgIC8vICY6aG92ZXIge1xyXG4gICAgLy8gICBiYWNrZ3JvdW5kLWNvbG9yOiBtaXgoI2ZmZiwgJHByaW1hcnktY29sb3IsIDg0JSk7XHJcbiAgICAvLyB9XHJcbiAgICAmOmFmdGVyIHtcclxuICAgICAgZGlzcGxheTogZmxleDtcclxuICAgICAgLy8gcG9zaXRpb246IGFic29sdXRlO1xyXG4gICAgICByaWdodDogMDtcclxuICAgICAgZmxleC1zaHJpbms6IDA7XHJcbiAgICAgIGNvbnRlbnQ6IFwiXCI7XHJcbiAgICAgIC8vIGJhY2tncm91bmQtY29sb3I6ICNmZmY7XHJcbiAgICAgIHdpZHRoOiAxLjVlbTtcclxuICAgICAgaGVpZ2h0OiAxLjVlbTtcclxuICAgICAgYm9yZGVyLXJhZGl1czogNTAlO1xyXG4gICAgICB0cmFuc2l0aW9uOiAwLjI1cyBlYXNlO1xyXG4gICAgICBtYXJnaW4tbGVmdDogMTBweDtcclxuICAgICAgYm94LXNoYWRvdzogaW5zZXQgMCAwIDAgMC4xMjVlbSAkcHJpbWFyeS1jb2xvcjtcclxuICAgIH1cclxuICB9XHJcbn1cclxuXHJcbi50aXRsZS1xdWVzdGlvbiB7XHJcbiAgbWFyZ2luLWJvdHRvbTogMTl2aDtcclxuICBjb2xvcjogd2hpdGUgIWltcG9ydGFudDtcclxufVxyXG5cclxuLnJpZ2h0IHtcclxuICBwb3NpdGlvbjogYWJzb2x1dGU7XHJcbiAgcmlnaHQ6IDA7XHJcbiAgY29sb3I6IHdoaXRlO1xyXG4gIGZvbnQtc2l6ZTogMzBweDtcclxuICB0b3A6IDQ2LjUlO1xyXG4gIHotaW5kZXg6IDk5OTk5OTk5OTk5OTk7XHJcbn1cclxuXHJcbi50aXAge1xyXG4gIGZvbnQtc2l6ZTogMjVweDtcclxuICBmb250LXdlaWdodDogNjAwO1xyXG4gIGZvbnQtc3R5bGU6IGl0YWxpYztcclxufVxyXG5cclxuLmJhc2ljLWNvbnRhaW5lciB7XHJcbiAgdGV4dC1hbGlnbjogY2VudGVyO1xyXG4gIC8vIGZsZXgtZGlyZWN0aW9uOiBjb2x1bW47XHJcbiAgYWxpZ24taXRlbXM6IGNlbnRlcjtcclxuXHJcbiAgaDIge1xyXG4gICAgZm9udC1zaXplOiAyNnB4O1xyXG4gIH1cclxufVxyXG5cclxuLnRpcC1pbWFnZSB7XHJcbiAgY29sb3I6IHdoaXRlO1xyXG4gIG1heC1oZWlnaHQ6IDUwcHg7XHJcbn1cclxuXHJcbi5pdGVtIHtcclxuICBib3JkZXI6IDJweCBzb2xpZCAjYjdhYjdiO1xyXG5cclxuICAvLyAjMjY0ODY5XHJcbiAgYm9yZGVyLXJhZGl1czogMjBweDtcclxufVxyXG5cclxuLmxlZnQtcmlnaHQge1xyXG4gIHdpZHRoOiA4MHB4O1xyXG4gIGhlaWdodDogODBweDtcclxuICBjdXJzb3I6IHBvaW50ZXI7XHJcbiAgY29sb3I6IHdoaXRlO1xyXG5cclxuICAmOm5vdCguZGlzYWJsZWQpIHtcclxuICAgICY6aG92ZXIge1xyXG4gICAgICBvcGFjaXR5OiAwLjg7XHJcbiAgICB9XHJcbiAgfVxyXG59XHJcblxyXG4uY29ycmVjdC1hbnN3ZXIge1xyXG4gIGJhY2tncm91bmQ6ICMwMDZmMDA7XHJcbiAgYm9yZGVyOiAycHggc29saWQgIzAwNmYwMDtcclxuICB0cmFuc2l0aW9uOiBiYWNrZ3JvdW5kLWNvbG9yIDMwMG1zIGxpbmVhcjtcclxuICAtbW96LXRyYW5zaXRpb246IGJhY2tncm91bmQtY29sb3IgMzAwbXMgbGluZWFyO1xyXG4gIC13ZWJraXQtdHJhbnNpdGlvbjogYmFja2dyb3VuZC1jb2xvciAzMDBtcyBsaW5lYXI7XHJcbiAgLW1zLXRyYW5zaXRpb246IGJhY2tncm91bmQtY29sb3IgMzAwbXMgbGluZWFyO1xyXG5cclxuICBzcGFuOmFmdGVyIHtcclxuICAgIGRpc3BsYXk6IG5vbmU7XHJcbiAgfVxyXG59XHJcblxyXG4ud3JvbmctYW5zd2VyIHtcclxuICBiYWNrZ3JvdW5kOiAjYzcwMDAwO1xyXG4gIGJvcmRlcjogMnB4IHNvbGlkICNjNzAwMDA7XHJcbiAgdHJhbnNpdGlvbjogYmFja2dyb3VuZC1jb2xvciAzMDBtcyBsaW5lYXI7XHJcbiAgLW1vei10cmFuc2l0aW9uOiBiYWNrZ3JvdW5kLWNvbG9yIDMwMG1zIGxpbmVhcjtcclxuICAtd2Via2l0LXRyYW5zaXRpb246IGJhY2tncm91bmQtY29sb3IgMzAwbXMgbGluZWFyO1xyXG4gIC1tcy10cmFuc2l0aW9uOiBiYWNrZ3JvdW5kLWNvbG9yIDMwMG1zIGxpbmVhcjtcclxuXHJcbiAgc3BhbjphZnRlciB7XHJcbiAgICBkaXNwbGF5OiBub25lO1xyXG4gIH1cclxufVxyXG5cclxuaDIge1xyXG4gIG1hcmdpbjogMHB4O1xyXG4gIHRleHQtYWxpZ246IGNlbnRlcjtcclxuICBmb250LXdlaWdodDogNzAwO1xyXG4gIGZvbnQtc2l6ZTogNDBweDtcclxuICBjb2xvcjogJHByaW1hcnktY29sb3I7XHJcbn1cclxuXHJcbi5kaXNhYmxlZCB7XHJcbiAgb3BhY2l0eTogMC41O1xyXG4gIGN1cnNvcjogbm90LWFsbG93ZWQ7XHJcbn1cclxuXHJcbi50aXRsZS1xdWVzdGlvbiB7XHJcbiAgbWFyZ2luLWJvdHRvbTogMTl2aDtcclxuICBjb2xvcjogd2hpdGUgIWltcG9ydGFudDtcclxufVxyXG5cclxuLmlucHV0R3JvdXAgbGFiZWwge1xyXG4gIG1hcmdpbi1ib3R0b206IDBweDtcclxufVxyXG5cclxuQG1lZGlhIHNjcmVlbiBhbmQgKG1heC13aWR0aDogNzY3cHgpIHtcclxuICAudGl0bGUtcXVlc3Rpb24ge1xyXG4gICAgbWFyZ2luLWJvdHRvbTogMHB4O1xyXG4gIH1cclxuXHJcbiAgLmJhc2ljLWNvbnRhaW5lciB7XHJcbiAgICBjaXJjbGUtcHJvZ3Jlc3Mge1xyXG4gICAgICBzdmcge1xyXG4gICAgICAgIGhlaWdodDogNTAlICFpbXBvcnRhbnQ7XHJcbiAgICAgIH1cclxuICAgIH1cclxuXHJcbiAgICAmID4gZGl2IHtcclxuICAgICAgJjphZnRlciB7XHJcbiAgICAgIH1cclxuICAgIH1cclxuXHJcbiAgICBoMiB7XHJcbiAgICAgIGZvbnQtc2l6ZTogMTdweDtcclxuICAgICAgY29sb3I6IHdoaXRlO1xyXG4gICAgfVxyXG4gIH1cclxuXHJcbiAgaDIge1xyXG4gICAgZm9udC1zaXplOiAxLjVyZW07XHJcbiAgfVxyXG5cclxuICAuaXRlbXMge1xyXG4gICAgcGFkZGluZy1yaWdodDogMjBweDtcclxuICAgIHBhZGRpbmctbGVmdDogMjBweDtcclxuXHJcbiAgICBwb3NpdGlvbjogYWJzb2x1dGU7XHJcbiAgICBsZWZ0OiAwJTtcclxuICAgIHRvcDogNDAlO1xyXG4gICAgd2lkdGg6IDEwMCU7XHJcbiAgfVxyXG5cclxuICAucmlnaHQge1xyXG4gICAgcmlnaHQ6IDE2cHg7XHJcbiAgfVxyXG5cclxuICAubWFpbi10aXRsZSB7XHJcbiAgICBmbGV4LWRpcmVjdGlvbjogY29sdW1uO1xyXG4gIH1cclxuXHJcbiAgLmxlZnQge1xyXG4gICAgbGVmdDogMTZweDtcclxuICB9XHJcblxyXG4gIC5xdWl6LWNvbnRlbnQgPiBkaXYge1xyXG4gICAgZGlzcGxheTogZmxleDtcclxuICAgIGZsZXgtZGlyZWN0aW9uOiBjb2x1bW47XHJcbiAgICBoZWlnaHQ6IDEwMCU7XHJcbiAgICBqdXN0aWZ5LWNvbnRlbnQ6IHNwYWNlLWJldHdlZW47XHJcblxyXG4gICAgaDIge1xyXG4gICAgICBmbGV4OiAxO1xyXG4gICAgfVxyXG5cclxuICAgICY6YWZ0ZXIge1xyXG4gICAgICBmbGV4OiAxO1xyXG4gICAgICBjb250ZW50OiBcIlwiO1xyXG4gICAgfVxyXG4gIH1cclxuXHJcbiAgLmlucHV0R3JvdXAge1xyXG4gICAgbWFyZ2luOiAwIGF1dG87XHJcbiAgfVxyXG5cclxuICAuaXRlbSBzcGFuLFxyXG4gIC5pbnB1dEdyb3VwIGxhYmVsIHtcclxuICAgIGZvbnQtc2l6ZTogMXJlbTtcclxuICB9XHJcblxyXG4gIC5pdGVtLWNvbnRhaW5lciB7XHJcbiAgICBtYXJnaW4tYm90dG9tOiAxcmVtO1xyXG4gICAgcGFkZGluZy1sZWZ0OiAzMHB4O1xyXG4gICAgcGFkZGluZy1yaWdodDogMzBweDtcclxuICB9XHJcblxyXG4gIC5iYXNpYy1jb250YWluZXIge1xyXG4gICAganVzdGlmeS1jb250ZW50OiBjZW50ZXIgIWltcG9ydGFudDtcclxuICAgIGNpcmNsZS1wcm9ncmVzcyB7XHJcbiAgICAgIHN2ZyB7XHJcbiAgICAgICAgaGVpZ2h0OiA1MCUgIWltcG9ydGFudDtcclxuICAgICAgfVxyXG4gICAgfVxyXG5cclxuICAgICY6YWZ0ZXIge1xyXG4gICAgICBkaXNwbGF5OiBub25lO1xyXG4gICAgfVxyXG4gIH1cclxuXHJcbiAgLnRpcCB7XHJcbiAgICBmb250LXNpemU6IDFyZW07XHJcbiAgfVxyXG5cclxuICAuaXRlbSB7XHJcbiAgICBwYWRkaW5nOiA1cHg7XHJcblxyXG4gICAgc3BhbiB7XHJcbiAgICAgIHBhZGRpbmctbGVmdDogNXB4O1xyXG4gICAgICBwYWRkaW5nLXJpZ2h0OiA1cHg7XHJcbiAgICB9XHJcbiAgfVxyXG5cclxuICAubGFzdC1zZWN0aW9uIHtcclxuICAgIHRvcDogMTBweDtcclxuICB9XHJcbn1cclxuIl19 */"], data: { animation: [_app_animations__WEBPACK_IMPORTED_MODULE_1__["animSlider"], _app_animations__WEBPACK_IMPORTED_MODULE_1__["listAnimation"], _app_animations__WEBPACK_IMPORTED_MODULE_1__["fadeIn"], _app_animations__WEBPACK_IMPORTED_MODULE_1__["fadeOut"]] } });
 
 
 /***/ }),
@@ -649,11 +677,12 @@ QuizPanelComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵdefin
 /*!*******************************!*\
   !*** ./src/app/app.module.ts ***!
   \*******************************/
-/*! exports provided: AppModule */
+/*! exports provided: MyHammerConfig, AppModule */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "MyHammerConfig", function() { return MyHammerConfig; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AppModule", function() { return AppModule; });
 /* harmony import */ var _angular_platform_browser__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/platform-browser */ "jhN1");
 /* harmony import */ var _angular_platform_browser_animations__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/platform-browser/animations */ "R1ws");
@@ -666,7 +695,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _angular_common_http__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! @angular/common/http */ "tk/3");
 /* harmony import */ var _points_points_component__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./points/points.component */ "4rgs");
 /* harmony import */ var _fortawesome_angular_fontawesome__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! @fortawesome/angular-fontawesome */ "6NWb");
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! @angular/core */ "fXoL");
+/* harmony import */ var hammerjs__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! hammerjs */ "yLV6");
+/* harmony import */ var hammerjs__WEBPACK_IMPORTED_MODULE_11___default = /*#__PURE__*/__webpack_require__.n(hammerjs__WEBPACK_IMPORTED_MODULE_11__);
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! @angular/core */ "fXoL");
 
 
 
@@ -680,12 +711,28 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
+
+
+class MyHammerConfig extends _angular_platform_browser__WEBPACK_IMPORTED_MODULE_0__["HammerGestureConfig"] {
+    constructor() {
+        super(...arguments);
+        this.overrides = {
+            swipe: { direction: hammerjs__WEBPACK_IMPORTED_MODULE_11__["DIRECTION_ALL"] },
+        };
+    }
+}
 class AppModule {
 }
 AppModule.ɵfac = function AppModule_Factory(t) { return new (t || AppModule)(); };
-AppModule.ɵmod = _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵdefineNgModule"]({ type: AppModule, bootstrap: [_app_component__WEBPACK_IMPORTED_MODULE_2__["AppComponent"]] });
-AppModule.ɵinj = _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵdefineInjector"]({ providers: [], imports: [[
+AppModule.ɵmod = _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵdefineNgModule"]({ type: AppModule, bootstrap: [_app_component__WEBPACK_IMPORTED_MODULE_2__["AppComponent"]] });
+AppModule.ɵinj = _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵdefineInjector"]({ providers: [
+        {
+            provide: _angular_platform_browser__WEBPACK_IMPORTED_MODULE_0__["HAMMER_GESTURE_CONFIG"],
+            useClass: MyHammerConfig,
+        },
+    ], imports: [[
             _angular_platform_browser__WEBPACK_IMPORTED_MODULE_0__["BrowserModule"],
+            _angular_platform_browser__WEBPACK_IMPORTED_MODULE_0__["HammerModule"],
             _angular_forms__WEBPACK_IMPORTED_MODULE_5__["FormsModule"],
             _fortawesome_angular_fontawesome__WEBPACK_IMPORTED_MODULE_10__["FontAwesomeModule"],
             _angular_forms__WEBPACK_IMPORTED_MODULE_5__["ReactiveFormsModule"],
@@ -711,11 +758,12 @@ AppModule.ɵinj = _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵdefineInjecto
                 showSubtitle: false,
             }),
         ]] });
-(function () { (typeof ngJitMode === "undefined" || ngJitMode) && _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵsetNgModuleScope"](AppModule, { declarations: [_app_component__WEBPACK_IMPORTED_MODULE_2__["AppComponent"],
+(function () { (typeof ngJitMode === "undefined" || ngJitMode) && _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵsetNgModuleScope"](AppModule, { declarations: [_app_component__WEBPACK_IMPORTED_MODULE_2__["AppComponent"],
         _quiz_panel_quiz_panel_component__WEBPACK_IMPORTED_MODULE_3__["QuizPanelComponent"],
         _footer_footer_component__WEBPACK_IMPORTED_MODULE_4__["FooterComponent"],
         _contact_contact_component__WEBPACK_IMPORTED_MODULE_7__["ContactComponent"],
         _points_points_component__WEBPACK_IMPORTED_MODULE_9__["PointsComponent"]], imports: [_angular_platform_browser__WEBPACK_IMPORTED_MODULE_0__["BrowserModule"],
+        _angular_platform_browser__WEBPACK_IMPORTED_MODULE_0__["HammerModule"],
         _angular_forms__WEBPACK_IMPORTED_MODULE_5__["FormsModule"],
         _fortawesome_angular_fontawesome__WEBPACK_IMPORTED_MODULE_10__["FontAwesomeModule"],
         _angular_forms__WEBPACK_IMPORTED_MODULE_5__["ReactiveFormsModule"],
@@ -912,12 +960,13 @@ ContactComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵdefineC
 /*!***********************************!*\
   !*** ./src/app/app.animations.ts ***!
   \***********************************/
-/*! exports provided: listAnimation, slideInOut, showAnimation, hideAnimation, fadeIn, fadeOut */
+/*! exports provided: listAnimation, animSlider, slideInOut, showAnimation, hideAnimation, fadeIn, fadeOut */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "listAnimation", function() { return listAnimation; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "animSlider", function() { return animSlider; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "slideInOut", function() { return slideInOut; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "showAnimation", function() { return showAnimation; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "hideAnimation", function() { return hideAnimation; });
@@ -950,6 +999,46 @@ const listAnimation = Object(_angular_animations__WEBPACK_IMPORTED_MODULE_0__["t
         Object(_angular_animations__WEBPACK_IMPORTED_MODULE_0__["query"])(':leave', Object(_angular_animations__WEBPACK_IMPORTED_MODULE_0__["animate"])('300ms', Object(_angular_animations__WEBPACK_IMPORTED_MODULE_0__["style"])({ opacity: 0 })), {
             optional: true,
         }),
+    ]),
+]);
+const animSlider = Object(_angular_animations__WEBPACK_IMPORTED_MODULE_0__["trigger"])('animSlider', [
+    Object(_angular_animations__WEBPACK_IMPORTED_MODULE_0__["transition"])(':increment', [
+        Object(_angular_animations__WEBPACK_IMPORTED_MODULE_0__["query"])(':enter, :leave', Object(_angular_animations__WEBPACK_IMPORTED_MODULE_0__["style"])({ position: 'fixed', width: '{{width}}' }), {
+            optional: true,
+        }),
+        Object(_angular_animations__WEBPACK_IMPORTED_MODULE_0__["group"])([
+            Object(_angular_animations__WEBPACK_IMPORTED_MODULE_0__["query"])(':enter', [
+                Object(_angular_animations__WEBPACK_IMPORTED_MODULE_0__["style"])({ transform: 'translateX(10%)' }),
+                Object(_angular_animations__WEBPACK_IMPORTED_MODULE_0__["animate"])('.3s ease-out', Object(_angular_animations__WEBPACK_IMPORTED_MODULE_0__["style"])({ transform: 'translateX(0%)' })),
+            ], {
+                optional: true,
+            }),
+            Object(_angular_animations__WEBPACK_IMPORTED_MODULE_0__["query"])(':leave', [
+                Object(_angular_animations__WEBPACK_IMPORTED_MODULE_0__["style"])({ transform: 'translateX(0%)' }),
+                Object(_angular_animations__WEBPACK_IMPORTED_MODULE_0__["animate"])('.4s ease-out', Object(_angular_animations__WEBPACK_IMPORTED_MODULE_0__["style"])({ transform: 'translateX(-10%)', opacity: 0 })),
+            ], {
+                optional: true,
+            }),
+        ]),
+    ]),
+    Object(_angular_animations__WEBPACK_IMPORTED_MODULE_0__["transition"])(':decrement', [
+        Object(_angular_animations__WEBPACK_IMPORTED_MODULE_0__["query"])(':enter, :leave', Object(_angular_animations__WEBPACK_IMPORTED_MODULE_0__["style"])({ position: 'fixed', width: '{{width}}' }), {
+            optional: true,
+        }),
+        Object(_angular_animations__WEBPACK_IMPORTED_MODULE_0__["group"])([
+            Object(_angular_animations__WEBPACK_IMPORTED_MODULE_0__["query"])(':enter', [
+                Object(_angular_animations__WEBPACK_IMPORTED_MODULE_0__["style"])({ transform: 'translateX(-10%)' }),
+                Object(_angular_animations__WEBPACK_IMPORTED_MODULE_0__["animate"])('.3s ease-out', Object(_angular_animations__WEBPACK_IMPORTED_MODULE_0__["style"])({ transform: 'translateX(0%)' })),
+            ], {
+                optional: true,
+            }),
+            Object(_angular_animations__WEBPACK_IMPORTED_MODULE_0__["query"])(':leave', [
+                Object(_angular_animations__WEBPACK_IMPORTED_MODULE_0__["style"])({ transform: 'translateX(0%)' }),
+                Object(_angular_animations__WEBPACK_IMPORTED_MODULE_0__["animate"])('.4s ease-out', Object(_angular_animations__WEBPACK_IMPORTED_MODULE_0__["style"])({ transform: 'translateX(10%)', opacity: 0 })),
+            ], {
+                optional: true,
+            }),
+        ]),
     ]),
 ]);
 const slideInOut = Object(_angular_animations__WEBPACK_IMPORTED_MODULE_0__["trigger"])('slideInOut', [
@@ -1032,15 +1121,22 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "fXoL");
 /* harmony import */ var _app_app_module__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./app/app.module */ "ZAI4");
 /* harmony import */ var _environments_environment__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./environments/environment */ "AytR");
+/* harmony import */ var hammerjs__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! hammerjs */ "yLV6");
+/* harmony import */ var hammerjs__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(hammerjs__WEBPACK_IMPORTED_MODULE_4__);
 
 
 
+
+/**
+ * Hammerjs must be imported for gestures
+ */
 
 if (_environments_environment__WEBPACK_IMPORTED_MODULE_3__["environment"].production) {
     Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["enableProdMode"])();
 }
-_angular_platform_browser__WEBPACK_IMPORTED_MODULE_0__["platformBrowser"]().bootstrapModule(_app_app_module__WEBPACK_IMPORTED_MODULE_2__["AppModule"])
-    .catch(err => console.error(err));
+_angular_platform_browser__WEBPACK_IMPORTED_MODULE_0__["platformBrowser"]()
+    .bootstrapModule(_app_app_module__WEBPACK_IMPORTED_MODULE_2__["AppModule"])
+    .catch((err) => console.error(err));
 
 
 /***/ }),
