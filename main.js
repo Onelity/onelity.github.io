@@ -7,7 +7,7 @@
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! C:\Users\Themistoklis\Desktop\onelity-quiz-app\src\main.ts */"zUnb");
+module.exports = __webpack_require__(/*! C:\Users\Themistoklis\Desktop\projects\Onelity-quiz-app-dev\src\main.ts */"zUnb");
 
 
 /***/ }),
