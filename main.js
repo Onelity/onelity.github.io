@@ -624,6 +624,7 @@ class QuizPanelComponent {
     }
     onCheckChange(item, formName) {
         const currentFormArray = this.form.get(formName);
+        currentFormArray.reset();
         currentFormArray.push(new _angular_forms__WEBPACK_IMPORTED_MODULE_0__["FormControl"](item.option));
         this.calculatePoints();
     }
@@ -1140,7 +1141,7 @@ class FooterComponent {
     }
 }
 FooterComponent.ɵfac = function FooterComponent_Factory(t) { return new (t || FooterComponent)(); };
-FooterComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: FooterComponent, selectors: [["app-footer"]], decls: 4, vars: 0, consts: [["href", "https://onelity.com/", "target", "_blank"]], template: function FooterComponent_Template(rf, ctx) { if (rf & 1) {
+FooterComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: FooterComponent, selectors: [["app-footer"]], decls: 4, vars: 0, consts: [["href", "https://onelity.com/career", "target", "_blank"]], template: function FooterComponent_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "span");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1, "powered by ");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](2, "a", 0);
